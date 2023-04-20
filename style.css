@@ -10,7 +10,7 @@ body{
 article{
     margin: 50px 50px;
 }
-a{
+.bar a{
     text-decoration: none;
     color: #E468B4;
     margin-left: 60px;
@@ -18,7 +18,11 @@ a{
 .bar{
     margin-bottom: 20px;
 }
-a:hover{
+.bar a:hover{
     font-weight: 900;
     border-bottom-style: solid;
+}
+.heading{
+    font-size: 40px; 
+    color: #e468b4
 }
