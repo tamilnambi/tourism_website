@@ -1,0 +1,24 @@
+.title{
+    font-family: 'Rochester', cursive;
+    font-size:50px;
+    color: #31a499;
+}
+body{
+    font-family: 'Anuphan', sans-serif;
+    font-size: 20px;
+}
+article{
+    margin: 50px 50px;
+}
+a{
+    text-decoration: none;
+    color: #E468B4;
+    margin-left: 60px;
+}
+.bar{
+    margin-bottom: 20px;
+}
+a:hover{
+    font-weight: 900;
+    border-bottom-style: solid;
+}
