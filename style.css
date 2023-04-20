@@ -22,7 +22,16 @@ article{
     font-weight: 900;
     border-bottom-style: solid;
 }
-.heading{
+h2{
     font-size: 40px; 
-    color: #e468b4
+    color: #e468b4;
+}
+.subheading{
+    font-size: 50px; 
+    color: #e468b4;
+    margin-left: 10px;
+}
+.quote{
+    font-size: 30px;
+    padding: 20px;
 }
