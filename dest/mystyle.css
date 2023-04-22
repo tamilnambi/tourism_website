@@ -3,13 +3,26 @@
     justify-content: center;
     flex-wrap: wrap;
  }
- .tourist-locations > div{
+ .tourist-locations div{
     width:30%;
     height: 600px;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 5px 7px 0px #0000007a;
+}
+.tourist-locations div:hover{
+    width:32%;
+    height: 600px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 7px 0px #0000007a;
+}
+.tourist-locations div:hover img{
+    width: 375px;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
 }
 .tourist-locations img{
     width: 350px;
