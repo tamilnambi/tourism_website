@@ -17,6 +17,10 @@ article{
 }
 .bar{
     margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 20px;
 }
 .bar a:hover{
     font-weight: 900;
@@ -27,11 +31,25 @@ h2{
     color: #e468b4;
 }
 .subheading{
-    font-size: 50px; 
+    font-size: 45px; 
     color: #e468b4;
     margin-left: 10px;
 }
 .quote{
     font-size: 30px;
     padding: 20px;
+}
+@font-face {
+    font-family: firstletter;
+    src: url(Precious.ttf);
+    font-weight: 600;
+}
+.first{
+    font-family: firstletter;
+    color: #e468b4;
+}
+.backtop{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
 }
