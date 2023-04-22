@@ -60,3 +60,25 @@ h2{
 main{
     text-align: center;
 }
+aside{
+    width: 40%;
+    height: 400px;
+}
+main section{
+    margin-left: 20px;
+}
+.contact{
+    display: flex;
+    margin-top: 50px;
+}
+.form-table{
+    margin-left: 50px;
+    border-left: 1px solid gray;
+}
+.form-table td{
+    text-align: left;
+    padding: 10px;
+}
+.form-table .button{
+    padding: 10px 20px;
+}
