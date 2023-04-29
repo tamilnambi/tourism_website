@@ -82,3 +82,22 @@ main section{
 .form-table .button{
     padding: 10px 20px;
 }
+@media all and (max-width:900px){
+    table{
+        width:100%;
+    }
+
+    td{
+        display:block;
+        width:100%;
+    }
+
+    tr{
+        display:block;
+        margin-bottom:30px;
+    }
+
+    tr tr{
+        margin-bottom:0;
+    }
+}
